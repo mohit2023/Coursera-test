@@ -1,0 +1,81 @@
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(207, 165, 131, 0.753);
+}
+
+/* Header */
+#header-nav {
+    border: 1px solid black;
+    border-radius: 0;
+    background-color: rgb(35, 212, 18);
+    margin-bottom: 0;
+    min-height: 65px;
+}
+.navbar-brand h1 {
+    font-size: 2em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(218, 16, 16);
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(238, 158, 38);
+    margin-top: 0;
+}
+.navbar-header button.navbar-toggle , .navbar-header .icon-bar {
+    border: 1.5px solid rgb(77, 76, 76);
+}
+.navbar-header button.navbar-toggle{
+    height: 40px;
+    margin-top: 20px;
+}
+#nav-list {
+    background-color: rgb(86, 241, 190);
+    margin-bottom: 0;
+    margin-top: 0;
+    border: 1px solid black;
+}
+#collapsable-nav {
+    border-color: black;
+}
+#nav-list a {
+    line-height: 1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(87, 10, 10);
+    font-size: 1.2em;
+    margin: 0;
+}
+#nav-list a:hover {
+    background: rgb(43, 86, 228);
+}
+#nav-list hr {
+    width: 98%;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 1px solid black;
+}
+/* header end */
+
+/* main content */
+#main-content h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+.menu-item {
+    background-color: rgb(110, 228, 228);
+    height: 1000px;
+    margin-bottom: 50px;
+    padding: 5px 20px 10px 20px;
+}
+.menu-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* end of main content */
+
+@media (max-width: 767px) {
+    .menu-item {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+}
